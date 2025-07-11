@@ -20,5 +20,5 @@ int main(){
     cout<<"Lamultiplucacion es: "<<multiplicacion<<endl;
     cout<<"La division es: "<<division<<endl;
 
-    return;
+    return 0;
 }
