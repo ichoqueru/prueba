@@ -5,14 +5,13 @@ int main(){
     cout<<"Ingrese una cantidad: "; cin>>n;
 
     for(i=0;i<n;i++){
-        cout<<numero[i]<<endl;
+        cin>>numero[i];
     }
     cout<<"\n---En orden inverso---"<<endl;
 
-    for(i=0;i<n;i--){
+    for(i=n-1;i>=0;i--){
         cout<<numero[i]<<endl;
-    }
-    
+    }    
 
     return 0;
 }
