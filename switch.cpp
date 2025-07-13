@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int numero;
 
-    cout<<"Ingrese un número entre el 1-5"; cin >>numero;
+    cout<<"Ingrese un número entre el 1-5: "; cin >>numero;
 
     switch(numero){
         case 1: cout<<"Es el numero 1"; break;
@@ -12,7 +12,7 @@ int main(){
         case 4: cout<<"Es el numero 4"; break;
         case 5: cout<<"Es el numero 5"; break;
 
-        default: <<"No esta en el rango de 1-5"; break;
+        default: cout<<"No esta en el rango de 1-5"; break;
     }
 
     return 0;
