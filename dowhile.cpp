@@ -2,11 +2,14 @@
 using namespace std;
 int main(){
     int i;
-    i=10;
-    while(i>=1){
+    i=1;
+
+    do{
         cout<<i<<endl;
-        i--;
-    }
+        i++;
+
+
+    }while(i<=10);
 
     return 0;
- }
+}
